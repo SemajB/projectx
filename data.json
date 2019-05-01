@@ -1,0 +1,30 @@
+{
+    "currentLevel": 0,
+    "levels": [{
+        "name": "Level 1",
+        "hitTest": "radiiHitTest",
+        "dampeningForce": 0.06,
+        "rateOfFire": 15,
+        "numberOfOrbs": 20,
+        "sounds": [],
+        "rooms": [{
+            "id": "abc",
+            "label": "Library",
+            "walls": {
+                "top": {
+                    "exits": [
+                        { "type": "top", "exit-to": "xyz", "color": "#DFD", "width": 88, "height": 22, "position": { "x": 20, "y": 0 } }
+                    ]
+
+                },
+                "bottom": {
+                    "exits": [
+                        { "type": "bottom", "exit-to": "123", "color": "#DDD", "width": 88, "height": 22, "position": { "x": 200, "y": 0 } }
+                    ]
+                },
+                "left": {},
+                "right": {}
+            }
+        }]
+    }]
+}
